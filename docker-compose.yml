@@ -1,0 +1,18 @@
+# Usage: `cd` in this directory, and run `docker-compose up -d`.
+# See README.md for more info.
+
+version: "3.3"
+
+
+services:
+
+  bot:
+    container_name: bde_bot
+    image: python:3.8
+    volumes:
+      - type: bind
+        source: ./
+        target: /ext
+        read_only: true
+    command: bash /ext/deploy.sh
+    restart: unless-stopped
