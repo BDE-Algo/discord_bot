@@ -27,10 +27,10 @@ If you can't use docker:
 ## Additional resources
 
 To add your bot to a server, use this link:
-https://discord.com/api/oauth2/authorize?client_id=\<id\>&permissions=\<perm\>&scope=bot%20applications.commands
+https://discord.com/api/oauth2/authorize?client_id=[id]&permissions=[perm]&scope=bot%20applications.commands
 
-In this link, do not forget to replace `<id>` by your application id, 
-and `<perm>` by the integer authorization value, 
+In this link, do not forget to replace `[id]` by your application id, 
+and `[perm]` by the integer authorization value, 
 both of which you can get here: https://discord.com/developers/applications/.
 
 ## Usage
